@@ -71,6 +71,7 @@ const Quiz = ({questions}) => {
 
     return (
         <div className="quiz-container">
+            <h1>General Quiz</h1>
             {!showResult ? (
             <>
                 {showAnswerTimer && <AnswerTimer duration={5} onTimeUp={handleTimeUp} /> }
